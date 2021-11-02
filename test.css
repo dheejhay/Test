@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color:peachpuff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header span{
+    color: purple;
+    letter-spacing: 0.3em;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 0.8em;
+}
+
+ul li a{
+     text-decoration: none;    
+}
+
+.item1{
+    text-align: center;
+    margin-top: 5em;
+    
+}
